@@ -114,6 +114,29 @@
 
 .section-article {
 	display: flex;
+
+}
+
+.article-garden {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+	position: relative;
+}
+
+.article-form {
+/*	position: absolute;*/
+	top: 30px;
+
+}
+
+.article-link-tag {
+
+}
+
+.article-text {
+
 }
 
 /* ==================main=================*/
