@@ -621,31 +621,50 @@
 }
 .product-text {
 	font-size: 0.95rem;
+	margin-bottom: 40px;
+	margin-top: 7px;
+	width: 302px;
+	line-height: 22px;
 }
 .product-purchase {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
+	margin-top: -25px;
 }
 .product-link {
 	color: #b59f5b;
+	text-decoration: none;
+
 }
 .product-price {
 	text-decoration: line-through;
 	font-size: 0.9rem;
 	font-weight: bold;
 }
-.product-price-sale span {
-	text-decoration: none;
+
+.product-price-sale{
+	font-weight: bold;
+	font-size: 1.25rem;
+
 }
 .shop {
 	background-color: #b59f5b;
+	box-sizing: border-box;
+	width: 140px;
+	min-height: 48px;
+	border: none;
+	font-size: 0.9rem;
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor: pointer;
 }
 
 /* ======================== footer ======================== */
 .footer {
 	box-sizing: border-box;
-	padding: 265px 15px 0;
+	padding: 235px 15px 0;
 	width: 1200px;
 	margin: 0 auto;
 }
