@@ -102,7 +102,7 @@
 
 .header-text {
 	box-sizing: border-box;
-	max-width: 1200px;
+	max-width: 750px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-left: auto;
@@ -479,7 +479,7 @@
 }
 
 .section-text-p {
-	max-width: 364px;
+	max-width: 100%;
 	font-size: 0.95rem;
 	padding-bottom: 10px;
 }
@@ -497,6 +497,7 @@
 
 	.content-section {
 		width: 100%;
+		padding-right: 15px;
 	}
 
 	.section {
@@ -506,6 +507,7 @@
 
 	.section-image {
 		max-width: 392px;
+		max-height: 500px;
 		padding: 0;
 	}
 
@@ -515,7 +517,9 @@
 
 	.section-text {
 		padding: 0;
+		max-width: 700px;
 	}
+
 	.section-text::after {
 		content: "";
 		display: block;
@@ -549,7 +553,7 @@
 	}
 
 	.section-image {
-		width: 100%;
+		max-width: 700px;
 		padding: 0;
 	}
 
@@ -875,6 +879,10 @@
 		width: 100%;
 	}
 
+	.search-group {
+		flex: 1;
+	}
+
 	.search {
 		width: 100%;
 		padding-bottom: 2.7rem;
@@ -1046,12 +1054,25 @@
 	}
 }
 
+@media (min-width: 641px) and (max-width: 767px) {
+	.shop-imeges {
+		margin-bottom: -30px;
+	}
+}
+
+@media (max-width: 641px) {
+	.shop-imeges {
+		margin-bottom: 50px;
+	}
+}
+
 @media (max-width: 768px) {
 	.section-shop {
 		top: 0;
 		left: 50%;
 		margin-top: 43px;
 		padding: 0 0.95rem;
+		flex: 1;
 	}
 
 	.section-product {
@@ -1063,10 +1084,13 @@
 		margin-top: 1.55rem;
 	}
 
+	.shop-img {
+		max-width: 100%;
+	}
+
 	.product-form {
-		width: 100%;
-		margin-top: 50px;
-		text-align: center;
+		max-width: 100%;
+		margin: 0 auto;
 	}
 }
 
@@ -1175,7 +1199,7 @@
 	position: relative;
 	background: #ffffff;
 	max-width: 390px;
-	height: 575px;
+	padding-bottom: 45px;
 }
 
 .popup-close {
